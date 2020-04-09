@@ -1,0 +1,29 @@
+{
+	"name": "@notification/server",
+	"version": "0.1.0",
+	"description": "The graphql server for realtime notification app",
+	"main": "src/server.js",
+	"author": "Chau Dinh <chaudvb95uc@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@babel/polyfill": "^7.8.7",
+		"apollo-server-express": "^2.12.0",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"graphql-subscriptions": "^1.1.0",
+		"graphql-tools": "^4.0.7",
+		"http": "^0.0.1-security",
+		"subscriptions-transport-ws": "^0.9.16"
+	},
+	"scripts": {
+		"start": "nodemon --exec babel-node src/server.js"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.9.0",
+		"@babel/node": "^7.8.7",
+		"@babel/preset-env": "^7.9.5",
+		"nodemon": "^2.0.2"
+	}
+}
